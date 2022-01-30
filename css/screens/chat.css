@@ -107,17 +107,18 @@
 }
 .message-row {
   opacity: 0;
-  animation: fadeIn 0.9s linear forwards;
+  animation: fadeIn 0.8s linear forwards;
 }
-.message-row-1 {
-  animation-delay: 0.1s;
+.message-row-1,
+.message-row-11 {
+  animation-delay: 0.2s;
 }
 .message-row--own {
-  animation-delay: 0.4s;
+  animation-delay: 0.6s;
 }
 .message-row-2,
 .message-row--own-2 {
-  animation-delay: 0.8s;
+  animation-delay: 0.9s;
 }
 
 /*Reply*/
