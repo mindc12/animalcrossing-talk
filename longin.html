@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/06a27d94ad.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Crossing Talk</title>
+</head>
+
+<body>
+    <!--Status Bar-->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!--WIFI Icon-->
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:40</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <!--Batterry Icon-->
+            <i class="fas fa-battery-full fa-lg"></i>
+            </svg>
+            <!--Lightning Icon-->
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <!--Welcome Header-->
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Animal Crossing Talk</h1>
+        <p class="welcome-header__text">If you have a Nintendo Account, log in with your e-mail or phone number</p>
+    </header>
+
+    <!--Log in Form-->
+    <form action="friends.html" method="get" id="login-form">
+        <input type="text" placeholder="E-mail or Phone number">
+        <input required type="password" placeholder="Password">
+        <input type="submit" value="Log In" />
+        <a href="#">Find Nintendo Account or Password</a>
+    </form>
+
+    <!--Splash screen-->
+    <div id="splash-screen">
+        <img src="img/splash.png">
+    </div>
+    <!--Screen detector-->
+    <div class="no-mobile">
+        <span>Your screen is too big!😿</span>
+    </div>
+</body>
+
+</html>

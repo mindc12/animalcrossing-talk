@@ -1,0 +1,46 @@
+@import url("reset.css");
+@import url("variables.css");
+
+/*Components*/
+@import url("components/no-mobile.css");
+@import url("components/status-bar.css");
+@import url("components/nav-bar.css");
+@import url("components/user-component.css");
+@import url("components/screen-headers.css");
+@import url("components/login.css");
+@import url("components/icon-row.css");
+@import url("components/alt-screen.css");
+
+/*Screens*/
+@import url("screens/splash-screen.css");
+@import url("screens/friends.css");
+@import url("screens/find.css");
+@import url("screens/more.css");
+@import url("screens/setting.css");
+@import url("screens/chat.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #3a3a3a;
+}
+img {
+  object-fit: cover;
+}
+
+.badge {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+}
+
+.user-component__column__badge {
+  animation: notiAnimation 2s ease-in-out infinite;
+}
